@@ -13,3 +13,5 @@ RUN mkdir /tmp/build && \
     rm /root/.cabal -rf && \
     cp -a /tmp/build/bin/root/.cabal /root/ && \
     rm /tmp/build -rf
+
+CMD ["idris"]
